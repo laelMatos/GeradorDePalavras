@@ -27,8 +27,10 @@ class func:
 
         k = Quantidade de posições
         """
-        if n < k: return int(n ** k)
-        return int((func.fatorial(n) / (func.fatorial(n - k))) + n)
+        #if n < k: return int(n ** k)
+        #return int((func.fatorial(n) / (func.fatorial(n - k))) + n)
+
+        return int(n ** k)
 
     def ImprimirPalavras(list):
         """
